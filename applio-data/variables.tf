@@ -9,6 +9,11 @@ variable "region" {
   default     = "fra1"
 }
 
+variable "vpc_uuid" {
+  type = string
+  description = "Id for shared VPC network"
+}
+
 variable "postgres_cluster_id" {
   type        = string
   description = "The id of the DigitalOcean DB Postgres cluster to create the database"
