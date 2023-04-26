@@ -1,0 +1,20 @@
+graph G {
+    label = "Applio project";
+    subgraph cluster0 {
+        label = "Servers";
+        applio_data [label = "applio-data-<env>";shape = "rectangle";];
+        applio_admin [label = "applio-admin-<env>";shape = "rectangle";];
+    }
+    subgraph cluster1 {
+        label = "Postgres Cluster";
+        applio_data_db [label = "applio-data-<env>";shape = "cylinder";];
+        applio_admin_db [label = "applio-admin-<env>";shape = "cylinder";];
+    }
+    subgraph cluster2 {
+        label = "MongoDB Cluster";
+        applio_data_mongo [label = "applio-data-<env>";shape = "cylinder";];
+    }
+    applio_data -- applio_data_db;
+    applio_data -- applio_data_mongo;
+    applio_admin -- applio_admin_db;
+}

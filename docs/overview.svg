@@ -1,0 +1,71 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="453pt" height="210pt" viewBox="0.00 0.00 453 210.4">
+<g id="graph0" class="graph" transform="translate(4,206.39999389648438) scale(1)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-206.4 449,-206.4 449,4 -4,4"/>
+<g id="clust1" class="cluster" data-name="cluster0">
+
+<polygon fill="none" stroke="black" points="8,-117.6 8,-194.4 293,-194.4 293,-117.6 8,-117.6"/>
+<text text-anchor="middle" x="150.5" y="-177.8" font-family="Times,serif" font-size="14.00">Servers</text>
+</g><text text-anchor="middle" x="222.5" y="-8.2" font-family="Times,serif" font-size="14.00">Applio project</text>
+<!-- app --><g id="clust2" class="cluster" data-name="cluster1" data-comment="app">
+
+<polygon fill="none" stroke="black" points="8,-32.8 8,-109.6 293,-109.6 293,-32.8 8,-32.8"/>
+<text text-anchor="middle" x="150.5" y="-93" font-family="Times,serif" font-size="14.00">Postgres Cluster</text>
+</g>
+<g id="node1" class="node" pointer-events="visible" data-name="applio_data" data-comment="app">
+
+<polygon fill="none" stroke="black" points="284.64,-161.6 165.36,-161.6 165.36,-125.6 284.64,-125.6 284.64,-161.6"/>
+<text text-anchor="middle" x="225" y="-139.4" font-family="Times,serif" font-size="14.00">applio-data-&lt;env&gt;</text>
+</g><g id="clust3" class="cluster" data-name="cluster2" data-comment="app">
+
+<polygon fill="none" stroke="black" points="301,-32.8 301,-109.6 437,-109.6 437,-32.8 301,-32.8"/>
+<text text-anchor="middle" x="369" y="-93" font-family="Times,serif" font-size="14.00">MongoDB Cluster</text>
+</g>
+<!-- a -->
+<g id="node2" class="node" pointer-events="visible" data-name="applio_admin" data-comment="a">
+
+<polygon fill="none" stroke="black" points="147.82,-161.6 16.18,-161.6 16.18,-125.6 147.82,-125.6 147.82,-161.6"/>
+<text text-anchor="middle" x="82" y="-139.4" font-family="Times,serif" font-size="14.00">applio-admin-&lt;env&gt;</text>
+</g>
+
+<!-- a -->
+<g id="node3" class="node" pointer-events="visible" data-name="applio_data_db" data-comment="a">
+
+<path fill="none" stroke="black" d="M284.64,-73.53C284.64,-75.33 257.91,-76.8 225,-76.8 192.09,-76.8 165.36,-75.33 165.36,-73.53 165.36,-73.53 165.36,-44.07 165.36,-44.07 165.36,-42.27 192.09,-40.8 225,-40.8 257.91,-40.8 284.64,-42.27 284.64,-44.07 284.64,-44.07 284.64,-73.53 284.64,-73.53"/>
+<text text-anchor="middle" x="225" y="-54.6" font-family="Times,serif" font-size="14.00">applio-data-&lt;env&gt;</text><path fill="none" stroke="black" d="M284.64,-73.53C284.64,-71.72 257.91,-70.25 225,-70.25 192.09,-70.25 165.36,-71.72 165.36,-73.53"/>
+
+</g>
+<!-- applio_a_db --><g id="edge1" class="edge" data-name="applio_data--applio_data_db" data-comment="applio_a_db">
+
+<path fill="none" stroke="black" d="M225,-125.44C225,-111.33 225,-91.41 225,-77.22"/>
+</g>
+<!-- applio_admin_db -->
+<!-- applio_admin&#45;&#45;a -->
+<g id="edge3" class="edge" data-name="applio_admin--applio_admin_db" data-comment="applio_admin--a">
+
+<path fill="none" stroke="black" d="M82,-125.44C82,-111.33 82,-91.41 82,-77.22"/>
+</g>
+<g id="node4" class="node" pointer-events="visible" data-name="applio_admin_db" data-comment="applio_admin--a">
+
+<path fill="none" stroke="black" d="M147.82,-73.53C147.82,-75.33 118.32,-76.8 82,-76.8 45.68,-76.8 16.18,-75.33 16.18,-73.53 16.18,-73.53 16.18,-44.07 16.18,-44.07 16.18,-42.27 45.68,-40.8 82,-40.8 118.32,-40.8 147.82,-42.27 147.82,-44.07 147.82,-44.07 147.82,-73.53 147.82,-73.53"/>
+<path fill="none" stroke="black" d="M147.82,-73.53C147.82,-71.72 118.32,-70.25 82,-70.25 45.68,-70.25 16.18,-71.72 16.18,-73.53"/>
+<text text-anchor="middle" x="82" y="-54.6" font-family="Times,serif" font-size="14.00">applio-admin-&lt;env&gt;</text>
+</g>
+
+<!-- applio_data_d -->
+
+<!-- applio_data_mongo -->
+<g id="node5" class="node" pointer-events="visible" data-name="applio_data_mongo">
+
+<path fill="none" stroke="black" d="M428.64,-73.53C428.64,-75.33 401.91,-76.8 369,-76.8 336.09,-76.8 309.36,-75.33 309.36,-73.53 309.36,-73.53 309.36,-44.07 309.36,-44.07 309.36,-42.27 336.09,-40.8 369,-40.8 401.91,-40.8 428.64,-42.27 428.64,-44.07 428.64,-44.07 428.64,-73.53 428.64,-73.53"/>
+<path fill="none" stroke="black" d="M428.64,-73.53C428.64,-71.72 401.91,-70.25 369,-70.25 336.09,-70.25 309.36,-71.72 309.36,-73.53"/>
+<text text-anchor="middle" x="369" y="-54.6" font-family="Times,serif" font-size="14.00">applio-data-&lt;env&gt;</text>
+</g><g id="edge2" class="edge" data-name="applio_data--applio_data_mongo" data-comment="applio_data_mongo">
+
+<path fill="none" stroke="black" d="M266.37,-125.14C276.56,-120.44 287.32,-115.11 297,-109.6 314.04,-99.9 332.19,-87.33 346,-77.25"/>
+</g>
+
+
+</g>
+</svg>
