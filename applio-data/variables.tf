@@ -9,9 +9,14 @@ variable "region" {
   default     = "fra1"
 }
 
-variable "postgres_db_cluster_id" {
+variable "postgres_cluster_id" {
   type        = string
-  description = "The id of the DigitalOcean DB cluster to create the database"
+  description = "The id of the DigitalOcean DB Postgres cluster to create the database"
+}
+
+variable "redis_cluster_id" {
+  type        = string
+  description = "The id of the DigitalOcean DB Redis cluster to create the cache"
 }
 
 variable "droplet_size" {
