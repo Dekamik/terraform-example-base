@@ -14,9 +14,9 @@ variable "postgres_cluster_id" {
   description = "The id of the DigitalOcean DB Postgres cluster to create the database"
 }
 
-variable "redis_cluster_id" {
+variable "mongo_cluster_id" {
   type        = string
-  description = "The id of the DigitalOcean DB Redis cluster to create the cache"
+  description = "The id of the DigitalOcean DB MongoDB cluster to create the NoSQL database"
 }
 
 variable "droplet_size" {
